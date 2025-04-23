@@ -1,21 +1,21 @@
 @font-face {
     font-family: durandal;
-    src: url(Durandal-Grotesque.ttf);
+    src: url(../fonts/Durandal-Grotesque.ttf);
 }
 
 @font-face {
     font-family: pixelgrid;
-    src: url(pixelgridtrial-circlemids.otf);
+    src: url(../fonts/pixelgridtrial-circlemids.otf);
 }
 
 @font-face {
     font-family: ppfraktion-reg;
-    src: url(PPFraktionMono-Regular.otf);
+    src: url(../fonts/PPFraktionMono-Regular.otf);
 }
 
 @font-face {
     font-family: ppfraktion-bold;
-    src: url(PPFraktionMono-Bold.otf);
+    src: url(../fonts/PPFraktionMono-Bold.otf);
 }
 
 :root {
@@ -34,7 +34,7 @@
 }
 
 h1 {
-    font-size: 180px;
+    font-size: 160px;
     font-family: durandal;
     margin: 0px;
 }
