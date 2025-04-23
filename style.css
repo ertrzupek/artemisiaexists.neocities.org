@@ -1,0 +1,81 @@
+@font-face {
+    font-family: durandal;
+    src: url(Durandal-Grotesque.ttf);
+}
+
+@font-face {
+    font-family: pixelgrid;
+    src: url(pixelgridtrial-circlemids.otf);
+}
+
+@font-face {
+    font-family: ppfraktion-reg;
+    src: url(PPFraktionMono-Regular.otf);
+}
+
+@font-face {
+    font-family: ppfraktion-bold;
+    src: url(PPFraktionMono-Bold.otf);
+}
+
+:root {
+    --lime: #c3ff0eff;
+    --black: #000000ff;
+    --fuchsia: #ff00ffff;
+    --yellow: #f5f500ff;
+    --red: #ff0d1aff;
+    --navy: #29324fff;
+    --pink: #e5249bff;
+    --cyan: #01ffffff;
+    --white: #ffffffff;
+    --clear: #00000000;
+    --text: var(--black);
+    --background: var(--lime);
+}
+
+h1 {
+    font-size: 180px;
+    font-family: durandal;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 80px;
+    font-family: pixelgrid;
+}
+
+body {
+    font-size: 20px;
+    font-family: ppfraktion-bold;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+button {
+    font-family: ppfraktion-bold;
+    color: var(--text);
+    background-color: var(--clear);
+    padding: 10px;
+    border-color: var(--clear) var(--clear) var(--text) var(--clear);
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* width:80%; */
+}
+
+.right {
+    display: block;
+    text-align: right;
+    /* padding-right: 25%; */
+} 
+
+.left {
+    width: auto;
+    float: left;
+    /* padding-left: 25%; */
+}
