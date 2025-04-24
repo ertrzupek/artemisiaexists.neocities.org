@@ -24,7 +24,7 @@
     --fuchsia: #ff00ffff;
     --yellow: #f5f500ff;
     --red: #ff0d1aff;
-    --navy: #29324fff;
+    --blue: #3201f1ff;
     --pink: #e5249bff;
     --cyan: #01ffffff;
     --white: #ffffffff;
@@ -85,7 +85,7 @@ button {
     left:0;
     right:0;
     z-index: -1;
-    background-image: url(../noise.svg);
+    /* background-image: url(../noise.svg); */
 }
 
 #toosmall {
