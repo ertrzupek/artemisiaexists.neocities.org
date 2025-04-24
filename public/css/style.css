@@ -34,7 +34,7 @@
 }
 
 h1 {
-    font-size: 160px;
+    font-size: 200px;
     font-family: durandal;
     margin: 0px;
 }
@@ -49,6 +49,9 @@ body {
     font-family: ppfraktion-bold;
     background-color: var(--background);
     color: var(--text);
+    margin: 0;
+    text-align: center;
+    align-items: center;
 }
 
 button {
@@ -59,23 +62,40 @@ button {
     border-color: var(--clear) var(--clear) var(--text) var(--clear);
 }
 
-.center {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    /* width:80%; */
+.heading {
+    padding-top: 100px;
 }
 
 .right {
     display: block;
     text-align: right;
-    /* padding-right: 25%; */
+    width: auto;
 } 
 
 .left {
+    display: block;
+    text-align: left;
     width: auto;
-    float: left;
-    /* padding-left: 25%; */
+}
+
+#noise {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: -1;
+    background-image: url(../noise.svg);
+}
+
+#toosmall {
+    display: none;
+}
+
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+    align-content: center;
 }
