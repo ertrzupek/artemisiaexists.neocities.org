@@ -4,13 +4,51 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>artemisia | home</title>
-        <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/style.css'/>
-        <link rel='stylesheet' media='screen and (max-width: 900px)' href='css/toosmall.css'/>
+        <link rel='stylesheet' media='screen and (min-width: 1001px)' href='css/style.css'/>
+        <link rel='stylesheet' media='screen and (max-width: 1000px)' href='css/toosmall.css'/>
+        <style>
+            :root {
+                --text: var(--black);
+                --background: var(--lime);
+                --link: var(--pink);
+                --linkhover: var(--white);
+                --linkactive: var(--black);
+            }
+        </style>
     </head>
     <body>
         <div class="heading">
             <center><h1>a r t e m i s i a</h1></center>
-            <br/><center><button onclick="location.href = 'index.html'">title</button></center>
+            <center>
+                <table style="width: 840px;margin-right: 10px;">
+                    <tr><td><div class="left">an exercise of free will</div></td><td><div class="right">by artemisia l. gentileschi</div></td></tr>
+                </table>
+                <table class="clear" width="998px">
+                    <tbody>
+                        <tr>
+                            
+                            <td>   
+                                <div class="outer">
+                                    <ul class="links">
+                                        <li><a class="invert"href="todo.html">to_do_list</a></li>
+                                        <li><a class="invert"href="shitposts.html">shitposts</a></li>
+                                        <li><a class="invert"href="inspiration.html">inspiration</a></li>
+                                        <li><a class="invert"href="commonplace.html">commonplace</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td> 
+                                <p class="image-holder">
+                                    <img src="media/ringsblack.gif" width="400px" alt="rings" style="opacity: 00;">
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br/><br/>this is artemisia. we all wander aimlessly here. welcome.
+
+                <br/><br/><button onclick="location.href = 'index.html'">title</button>
+            </center>
         </div>
         <div id="noise"></div>
         <div id="toosmall"><center>your screen is too small for this experience.</center></div>

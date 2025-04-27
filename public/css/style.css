@@ -29,8 +29,6 @@
     --cyan: #01ffffff;
     --white: #ffffffff;
     --clear: #00000000;
-    --text: var(--black);
-    --background: var(--lime);
 }
 
 h1 {
@@ -70,7 +68,7 @@ button {
     display: block;
     text-align: right;
     width: auto;
-} 
+}
 
 .left {
     display: block;
@@ -79,11 +77,11 @@ button {
 }
 
 #noise {
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: -1;
     /* background-image: url(../noise.svg); */
 }
@@ -96,6 +94,58 @@ button {
 .container {
     display: grid;
     place-items: center;
-    height: 100vh; 
+    height: 100vh;
     align-content: center;
+}
+
+.vert-align {
+    display: grid;
+    place-items: center;
+}
+
+
+table.clear {
+    border: 0px solid RGB(0, 0, 0, 1);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: RGB(0, 0, 0, 0);
+    height: max-content;
+}
+
+a.invert {
+    font-family: pixelgrid;
+    font-size: 70px;
+    color: var(--link);
+}
+
+a.invert:hover {
+    color: var(--linkhover);
+}
+a.invert:active {
+    color: var(--linkactive);
+}
+
+.outer {
+    width: 480px;
+    height: max-content;
+    margin: auto;
+    border: 0px solid #000;
+    position: relative;
+}
+
+ul.links {
+    list-style: none;
+}
+
+.links li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+.image-holder {
+    display: block;
+    margin: auto;
+    width: 400px;
 }
