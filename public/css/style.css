@@ -115,14 +115,17 @@ table.clear {
 
 a.invert {
     font-family: pixelgrid;
-    font-size: 70px;
+    font-size: 70px;    
+}
+
+a.invert, a {
     color: var(--link);
 }
 
-a.invert:hover {
+a.invert:hover, a:hover {
     color: var(--linkhover);
 }
-a.invert:active {
+a.invert:active, a:active {
     color: var(--linkactive);
 }
 
@@ -149,4 +152,15 @@ ul.links {
     display: block;
     margin: auto;
     width: 400px;
+}
+
+#definition {
+    text-align: left !important;
+    align-items: center;
+}
+
+#definition-text {
+    width:fit-content; 
+    align-self:center;
+    margin: auto;
 }
